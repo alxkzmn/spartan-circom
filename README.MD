@@ -1,3 +1,11 @@
+# Spartan-Circom
+
+Spartan is a zero-knowledge proof system using the R1CS arithmetization. See https://github.com/microsoft/Spartan for more information.
+
+Circom is a popular DSL for writing ZK circuits that can be compiled into R1CS format. See https://docs.circom.io/ for more information.
+
+This repository provides the tools to run Spartan using circuits written in Circom.
+
 ## Development
 
 1. Install Circom with `curve25519` support
