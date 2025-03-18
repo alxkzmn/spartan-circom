@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "spartan",
+    "spartan-circom",
+    "circuit_reader",
+]

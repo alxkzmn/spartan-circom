@@ -1,0 +1,3 @@
+[submodule "spartan"]
+	path = spartan
+	url = https://github.com/alxkzmn/Spartan.git

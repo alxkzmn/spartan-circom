@@ -1,0 +1,1 @@
+cd circuits && circom multiplier2.circom --r1cs --wasm -p curve25519

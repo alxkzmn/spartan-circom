@@ -1,0 +1,29 @@
+# Package adapted from the spartan-ecdsa project:
+# https://github.com/personaelabs/spartan-ecdsa
+[package]
+name = "circuit_reader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bincode = "1.3.3"
+spartan = { path = "../spartan" }
+ff = "0.13.1"
+curve25519-dalek = { version = "4.1.1", features = [
+    "group",
+    "serde",
+    "alloc",
+    "rand_core",
+], default-features = false }
+byteorder = "1.4.3"
+itertools = "0.9.0"
+group = "0.13.0"
+
+[[bin]]
+name = "gen_spartan_inst"
+path = "src/bin/gen_spartan_inst.rs"
+
+
+
